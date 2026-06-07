@@ -1,0 +1,96 @@
+.HeroContainer {
+    width: 100%;
+    height: 600px;
+    background-color: #4E7C59;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftHero {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+
+.alert {
+    width: 300px;
+    height: 30px;
+    background-color: #34543b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.alert button {
+    width: 50px;
+    height: 23px;
+    padding: 0 5px 0 5px;
+    border-radius: 30px;
+    font-size: 10px;
+    background-color: #F5A623;
+    color: white;
+    margin-left: -5px;
+    outline: none;
+    border: none;
+}
+
+.bigTitle h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.smallTitle p {
+    color: white;
+}
+
+.SearchCourse {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.SearchCourse input {
+    margin-left: 20px;
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+}
+
+.SearchBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fd4f00;
+    border-radius: 5px;
+}
+
+.SearchBox:hover{
+    cursor: pointer;
+}
+
+.rightHero {
+    width: 50%;
+    height: 100%;
+}
+.rightHero img{
+    height: 110%;
+    position: relative;
+    top: -10%;
+}
