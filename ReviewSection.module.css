@@ -45,11 +45,11 @@ margin-right: 5px;
 .line3{
     display: flex;
     flex-direction: column;
-        margin-left: 50px;
-        gap: 20px;
+    margin-left: 50px;
+    gap: 20px;
 }
 .line3 h1{
-    font-size: 28px;
+    font-size: 33px;
 }
 .company{
     display: flex;

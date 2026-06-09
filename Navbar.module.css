@@ -47,17 +47,19 @@
     margin-left: 80px;
 }
 
-.line2 button {
+.line2 .Link {
     outline: none;
     border: none;
     background-color: transparent;
     padding-right: 40px;
-   
+    text-decoration: none;
+
 }
 
-.line2 button:hover {
+.line2 .Link:hover {
     color: orange;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* line3  styling*/

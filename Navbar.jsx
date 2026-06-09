@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Navbar.module.css'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
         <div className={styles.navbarContainer}>
@@ -11,11 +12,11 @@ export default function Navbar() {
 
             </div>
             <div className={styles.line2}>
-                <button>Home</button>
-                <button>Course</button>
-                <button>Apply</button>
-                <button>About Us</button>
-                <button>Contact</button>
+                <Link to='/' className={styles.Link}>Home</Link>
+                <Link to='/Course' className={styles.Link}>Course</Link>
+                <Link to='/Apply' className={styles.Link}>Apply</Link>
+                <Link to='/AboutUs' className={styles.Link}>About Us</Link>
+                <Link to='/Contact' className={styles.Link}>Contact</Link>
             </div>
             <div className={styles.line3}>
                 <button className={styles.line3Button1}>My Account</button>
